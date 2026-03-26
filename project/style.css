@@ -1,0 +1,44 @@
+:root {
+    --orange: #FF7143;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_container {
+    max-width: 1069px;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+.header_nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_list {
+    display: flex;
+    gap: 49px;
+}
+
+.header_btn-getstart {
+    padding: 19px 59px;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: white;
+    font-weight: 700;
+}
