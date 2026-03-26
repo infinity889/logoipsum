@@ -1,44 +1,98 @@
-:root {
-    --orange: #FF7143;
-}
+    :root {
+        --orange: #FF7143;
+        --grey: #696871;
+        --black: #19191B;
+        --blue: #5454D4;
+    }
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-ul {
-    list-style: none;
-}
+    ul {
+        list-style: none;
+    }
 
-a {
-    text-decoration: none;
-}
+    a {
+        text-decoration: none;
+    }
 
-.header_container {
-    max-width: 1069px;
-    margin-inline: auto;
-    margin-top: 30px;
-}
+    .header_container {
+        max-width: 1069px;
+        margin-inline: auto;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
 
-.header_nav {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
-}
+    .header_nav {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 
-.header_list {
-    display: flex;
-    gap: 49px;
-}
+    .header_list {
+        display: flex;
+        gap: 49px;
+    }
 
-.header_btn-getstart {
-    padding: 19px 59px;
-    border-radius: 10px;
-    background-color: var(--orange);
-    color: white;
-    font-weight: 700;
-}
+    .header_list-item-link {
+        color: var(--grey);
+        font-weight: 700;
+        transition: color 0.2s;
+
+    }
+
+    .header_list-item-link:hover {
+        color: var(--black);
+    }
+
+    .header_list-item-link.active {
+        color: var(--black);
+        font-weight: 700;
+        border-bottom: 2px solid var(--blue);
+        padding-bottom: 10px;
+    }
+
+    .header_btn-getstart {
+        padding: 19px 59px;
+        border-radius: 10px;
+        background-color: var(--orange);
+        color: white;
+        font-weight: 700;
+    }
+
+    .hero_container {
+        max-width: 1069px;
+        margin-inline: auto; 
+
+    }
+
+    .hero_title {
+        max-width: 423px;
+        padding-block: 90px;
+    }
+
+    .hero_title-head {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .hero_content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .hero_pose {
+        margin-left: 200px;
+    }
+
+    .hero_title-para {
+        padding-top: 30px;
+        font-size: 21px;
+        color: var(--grey);
+    }
