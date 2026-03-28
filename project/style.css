@@ -106,7 +106,7 @@
   .hero_buttons {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     gap:20px;
   }
 
@@ -120,4 +120,36 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.infofirst_container {
+    margin-top: 90px;
+    max-width: 1069px;
+    margin-inline: auto;
+}
+
+.infofirst_content {
+    display: flex;
+    gap: 300px;
+}
+
+.infofirst_title {
+    padding-block: 90px;
+    max-width: 556px;
+
+}
+
+.infofirst_index {
+    font-size: 50px;
+}
+
+.infofirst_para {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.infofirst_learn {
+    font-size: 17px;
+    margin-top: 25px;
+    color: var(--blue);
 }
