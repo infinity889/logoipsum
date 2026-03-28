@@ -65,6 +65,14 @@
         font-weight: 700;
     }
 
+    .hero_button-getstart {
+        padding: 19px 59px;
+        border-radius: 10px;
+        background-color: var(--blue);
+        color: white;
+        font-weight: 700;
+    }
+
     .hero_container {
         max-width: 1069px;
         margin-inline: auto; 
@@ -83,8 +91,6 @@
 
     .hero_content {
         display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
     }
 
     .hero_pose {
@@ -96,3 +102,22 @@
         font-size: 21px;
         color: var(--grey);
     }
+
+  .hero_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap:20px;
+  }
+
+  .companies_container {
+    max-width: 1069px;
+    margin-inline: auto;
+  }
+
+
+.companies_container-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
